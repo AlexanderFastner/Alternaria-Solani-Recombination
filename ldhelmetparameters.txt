@@ -1,0 +1,36 @@
+ldhelmet find_confs --num_threads 50 \
+		     -w 50 \
+		     -o output.conf \
+		     chromosome1.fasta
+		      
+ldhelmet table_gen --num_threads 50 \
+		    -t 0.01 \
+		    -r 0.0 0.1 10.0 1.0 100.0 \
+		    -c output.conf \
+		    -o output.lk	      
+			
+ldhelmet pade --num_threads 50 \
+	       -t 0.01 \
+	       -x 11 \
+	       -c output.conf \
+	       -o output.pade
+		
+ldhelmet rjmcmc --num_threads 50 \
+		 -l output.lk \
+		 -p output.pade \	
+		 -s chromosome1.fasta \
+		 -w 50 \
+		 -b 50.0 \
+		 --burn_in 100000 \
+		 -n 1000000 \
+		 -o LDHelmetoutputchr1.post
+		
+ldhelmet post_to_text -m \
+		       -p 0.025 \
+-		       -p 0.50 \
+		       -p 0.975 \
+		       -o LDHelmetoutputchr1.txt \
+		       LDHelmetoutputchr1.post
+		
+ldhelmet max_lk --num_threads 50 \
+		 -l output.lk \

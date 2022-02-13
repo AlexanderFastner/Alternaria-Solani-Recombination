@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="com">
+      <map/>
+      <node name="affymetrix">
+        <map/>
+        <node name="igb">
+          <map>
+            <entry key="Track resizing behavior" value="TierResizer"/>
+            <entry key="Coordinate label format" value="COMMA"/>
+            <entry key="Integrated Genome Browser" value="9.1.8"/>
+            <entry key="data directory" value="C:\Users\alex\Desktop\denbiData"/>
+          </map>
+          <node name="annotLabelPrefs">
+            <map>
+              <entry key="selectedBtn" value="autoSizeBtn"/>
+            </map>
+          </node>
+          <node name="cache">
+            <map/>
+          </node>
+          <node name="cacheRequest">
+            <map/>
+          </node>
+          <node name="dataProviders">
+            <map/>
+            <node name="15168ebbd4885f6b911ebae5aacfa59a">
+              <map>
+                <entry key="url" value="http://lorainelab-quickload.scidas.org/chipseq/"/>
+                <entry key="name" value="ChIP-Seq"/>
+                <entry key="loadPriority" value="1"/>
+                <entry key="mirrorUrl" value="http://igbquickload.org/chipseq/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:7"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+            <node name="27bea22264bf6fa12af2457cdea17fec">
+              <map>
+                <entry key="url" value="http://lorainelab-quickload.scidas.org/blueberry/"/>
+                <entry key="name" value="Blueberry"/>
+                <entry key="loadPriority" value="3"/>
+                <entry key="mirrorUrl" value="http://igbquickload.org/blueberry/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:3"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+            <node name="41a9b90dac84c42d8a51a0ce18cf11b8">
+              <map>
+                <entry key="url" value="http://igbquickload.org/quickload/"/>
+                <entry key="name" value="IGB Quickload"/>
+                <entry key="loadPriority" value="2"/>
+                <entry key="mirrorUrl" value="http://lorainelab-quickload.scidas.org/quickload/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:1"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+            <node name="4388391f553c02b8f6d8cdf8de76b1db">
+              <map>
+                <entry key="url" value="http://igbquickload.org/rnaseq/"/>
+                <entry key="name" value="RNA-Seq"/>
+                <entry key="loadPriority" value="0"/>
+                <entry key="mirrorUrl" value="http://lorainelab-quickload.scidas.org/rnaseq/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:2"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+            <node name="8d7cf2dc82473511aa8b61aeb36d5cf8">
+              <map>
+                <entry key="status" value="Disabled"/>
+                <entry key="url" value="http://genome.cse.ucsc.edu/cgi-bin/das/"/>
+                <entry key="name" value="UCSC"/>
+                <entry key="loadPriority" value="5"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:15"/>
+                <entry key="factoryName" value="DAS"/>
+                <entry key="isEditable" value="false"/>
+              </map>
+            </node>
+            <node name="8f24e908dfd772ae3c11eaf9dc81f0b4">
+              <map>
+                <entry key="status" value="Disabled"/>
+                <entry key="url" value="http://lorainelab-quickload.scidas.org/dnaseq/"/>
+                <entry key="name" value="DNA-Seq"/>
+                <entry key="loadPriority" value="1"/>
+                <entry key="mirrorUrl" value="http://igbquickload.org/dnaseq/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:6"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+              </map>
+            </node>
+            <node name="9cfac68362c394b70c6ae8056516b2ed">
+              <map>
+                <entry key="status" value="Disabled"/>
+                <entry key="url" value="http://lorainelab-quickload.scidas.org/soyseq/"/>
+                <entry key="name" value="SoySeq"/>
+                <entry key="loadPriority" value="4"/>
+                <entry key="mirrorUrl" value="http://igbquickload.org/soyseq/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:4"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+              </map>
+            </node>
+            <node name="ab1c7d27540b910e38d7eda84df56291">
+              <map>
+                <entry key="url" value="https://bioviz.org/quickload/genome-in-a-bottle/"/>
+                <entry key="name" value="Genome in a Bottle"/>
+                <entry key="loadPriority" value="1"/>
+                <entry key="mirrorUrl" value="https://bitbucket.org/nfreese/quickload-genome-in-a-bottle/raw/release-v1.0.0/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:9"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+            <node name="bf99990d96900c03cfdb6ba76a8ea35d">
+              <map>
+                <entry key="url" value="http://lorainelab-quickload.scidas.org/bar/"/>
+                <entry key="name" value="Bio-Analytic Resource"/>
+                <entry key="loadPriority" value="1"/>
+                <entry key="mirrorUrl" value="http://bioviz.org/quickload/bar/"/>
+                <entry key="defaultDataProviderId" value="IgbDefaultDataProviderId:5"/>
+                <entry key="factoryName" value="Quickload"/>
+                <entry key="isEditable" value="false"/>
+                <entry key="status" value="Initialized"/>
+              </map>
+            </node>
+          </node>
+          <node name="ensemblSettings">
+            <map/>
+          </node>
+          <node name="export">
+            <map/>
+          </node>
+          <node name="genomes">
+            <map>
+              <entry key="SELECTED_GENOME_PREF" value="GENUS_alt.solani_MMM_YYYY"/>
+            </map>
+            <node name="A_SPECIES_MMM_YYYY">
+              <map>
+                <entry key="GENOME_ID" value="A_SPECIES_MMM_YYYY"/>
+                <entry key="SELECTED_SEQ_PREF" value="152-3.whole.wo.indels"/>
+              </map>
+              <node name="seqs">
+                <map/>
+                <node name="124-2.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="124-2.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="131-4.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="131-4.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="132-2.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="132-2.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="134-1.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="134-1.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="142-2.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="142-2.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="15-183s.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="15-183s.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="15-20s.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="15-20s.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="151-3.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="151-3.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="152-1.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="152-1.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="1000"/>
+                  </map>
+                </node>
+                <node name="152-3.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="152-3.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+            <node name="Custom Genome 1">
+              <map>
+                <entry key="GENOME_ID" value="Custom Genome 1"/>
+                <entry key="SELECTED_SEQ_PREF" value="14-23s.whole.wo.indels"/>
+              </map>
+              <node name="seqs">
+                <map/>
+                <node name="1">
+                  <map>
+                    <entry key="SEQ_ID" value="1"/>
+                    <entry key="SEQ_MIN_PREF" value="1260377"/>
+                    <entry key="SEQ_MAX_PREF" value="1260594"/>
+                  </map>
+                </node>
+                <node name="10">
+                  <map>
+                    <entry key="SEQ_ID" value="10"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="1878275"/>
+                  </map>
+                </node>
+                <node name="14-23s.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="14-23s.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="1"/>
+                    <entry key="SEQ_MAX_PREF" value="209"/>
+                  </map>
+                </node>
+                <node name="15-1s.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="15-1s.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="2">
+                  <map>
+                    <entry key="SEQ_ID" value="2"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="5062150"/>
+                  </map>
+                </node>
+                <node name="3">
+                  <map>
+                    <entry key="SEQ_ID" value="3"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="3306264"/>
+                  </map>
+                </node>
+                <node name="5">
+                  <map>
+                    <entry key="SEQ_ID" value="5"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2771896"/>
+                  </map>
+                </node>
+                <node name="6">
+                  <map>
+                    <entry key="SEQ_ID" value="6"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2590026"/>
+                  </map>
+                </node>
+                <node name="7">
+                  <map>
+                    <entry key="SEQ_ID" value="7"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2546252"/>
+                  </map>
+                </node>
+                <node name="8">
+                  <map>
+                    <entry key="SEQ_ID" value="8"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2508373"/>
+                  </map>
+                </node>
+                <node name="9">
+                  <map>
+                    <entry key="SEQ_ID" value="9"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2309181"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+            <node name="GENUS_alt.solani_MMM_YYYY">
+              <map>
+                <entry key="GENOME_ID" value="GENUS_alt.solani_MMM_YYYY"/>
+                <entry key="SELECTED_SEQ_PREF" value="14-23s.whole.wo.indels"/>
+              </map>
+              <node name="seqs">
+                <map/>
+                <node name="1">
+                  <map>
+                    <entry key="SEQ_ID" value="1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="6940169"/>
+                  </map>
+                </node>
+                <node name="10">
+                  <map>
+                    <entry key="SEQ_ID" value="10"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="1878275"/>
+                  </map>
+                </node>
+                <node name="14-23s.whole.wo.indels">
+                  <map>
+                    <entry key="SEQ_ID" value="14-23s.whole.wo.indels"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="32779142"/>
+                  </map>
+                </node>
+                <node name="2">
+                  <map>
+                    <entry key="SEQ_ID" value="2"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="5062150"/>
+                  </map>
+                </node>
+                <node name="6">
+                  <map>
+                    <entry key="SEQ_ID" value="6"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2590027"/>
+                  </map>
+                </node>
+                <node name="CP022024.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022024.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="6939770"/>
+                  </map>
+                </node>
+                <node name="CP022024.10">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022024.10"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="1877218"/>
+                  </map>
+                </node>
+                <node name="CP022025.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022025.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="5053907"/>
+                  </map>
+                </node>
+                <node name="CP022026.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022026.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="3305948"/>
+                  </map>
+                </node>
+                <node name="CP022027.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022027.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2865319"/>
+                  </map>
+                </node>
+                <node name="CP022028.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022028.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2770839"/>
+                  </map>
+                </node>
+                <node name="CP022029.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022029.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2588166"/>
+                  </map>
+                </node>
+                <node name="CP022030.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022030.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2542632"/>
+                  </map>
+                </node>
+                <node name="CP022031.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022031.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2508178"/>
+                  </map>
+                </node>
+                <node name="CP022032.1">
+                  <map>
+                    <entry key="SEQ_ID" value="CP022032.1"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="2308876"/>
+                  </map>
+                </node>
+                <node name="genome">
+                  <map>
+                    <entry key="SEQ_ID" value="genome"/>
+                    <entry key="SEQ_MIN_PREF" value="0"/>
+                    <entry key="SEQ_MAX_PREF" value="36057052"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="locations">
+            <map/>
+          </node>
+          <node name="pluginRepositories">
+            <map/>
+            <node name="53a70f43aa4cb146009029d8c6fdaed2">
+              <map>
+                <entry key="name" value="Pending Apps"/>
+                <entry key="url" value="https%3A%2F%2Fapps.bioviz.org%2Fobr%2Fpending_releases"/>
+                <entry key="enabled" value="false"/>
+              </map>
+            </node>
+            <node name="868c651c66649e67ed641da5fa8c4358">
+              <map>
+                <entry key="name" value="BioViz"/>
+                <entry key="url" value="https%3A%2F%2Fbioviz.org%2Figbserver"/>
+                <entry key="enabled" value="true"/>
+              </map>
+            </node>
+            <node name="b60e9b0a85845530aab1d8c40b440041">
+              <map>
+                <entry key="name" value="App Store"/>
+                <entry key="url" value="https%3A%2F%2Fapps.bioviz.org%2Fobr%2Freleases%2F"/>
+                <entry key="enabled" value="true"/>
+              </map>
+            </node>
+          </node>
+          <node name="session">
+            <map>
+              <entry key="SEQ_MODE" value="MapScrollMode"/>
+              <entry key="bookmark" value="http%3A%2F%2Flocalhost%3A7085%2FIGBControl%3Fversion%3DGENUS_alt.solani_MMM_YYYY%26seqid%3DCP022024.1%26start%3D1329608%26end%3D1342671%26loadresidues%3Dfalse%26create%3D2021%252F08%252F15%2B18%253A53%253A49%26modified%3D2021%252F08%252F15%2B18%253A53%253A49%26feature_url_0%3Dfile%253A%252FC%253A%252FUsers%252Falex%252FDesktop%252FdenbiData%252FNL03003.gff3%26sym_method_0%3Dfile%253A%252FC%253A%252FUsers%252Falex%252FDesktop%252FdenbiData%252FNL03003.gff3%26sym_ypos_0%3D0%26sym_yheight_0%3D50%26sym_col_0%3D0x0247FE%26sym_bg_0%3D0xFFFFFF%26sym_name_0%3DNL03003.gff3%26query_url%3Dfile%253A%252FC%253A%252FUsers%252Falex%252FDesktop%252FdenbiData%252FaltSolfastas%252F14-23s.whole.wo.indels.fasta%26query_url%3Dfile%253A%252FC%253A%252FUsers%252Falex%252FDesktop%252FdenbiData%252FNL03003.gff3%26server_url%3D%26server_url%3D"/>
+            </map>
+          </node>
+          <node name="tiers">
+            <map/>
+            <node name="* default *">
+              <map>
+                <entry key="Track Name" value=""/>
+              </map>
+            </node>
+            <node name="file:">
+              <map/>
+              <node name="c:">
+                <map/>
+                <node name="users">
+                  <map/>
+                  <node name="alex">
+                    <map/>
+                    <node name="desktop">
+                      <map/>
+                      <node name="denbidata">
+                        <map/>
+                        <node name="nl03003.gff">
+                          <map/>
+                        </node>
+                        <node name="nl03003.gff3">
+                          <map>
+                            <entry key="Track Name Size" value="12.0"/>
+                          </map>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="ucscSettings">
+            <map/>
+          </node>
+          <node name="window">
+            <map>
+              <entry key="Bottom Tabbed Panes state" value="EXTENDED"/>
+              <entry key="com.affymetrix.igb.external.ExternalViewer state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.tabs.graph.GraphTrackPanel state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.view.load.GeneralLoadViewGUI state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="Right Tabbed Panes state" value="EXTENDED"/>
+              <entry key="com.affymetrix.igb.bookmarks.BookmarkManagerViewGUI state" value="COMPONENT_STATE_RIGHT_TAB"/>
+              <entry key="com.affymetrix.igb.view.SeqGroupViewGUI state" value="COMPONENT_STATE_RIGHT_TAB"/>
+              <entry key="org.lorainelab.igb.plugin.manager.AppManagerIgbTab state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.property.PropertyView state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.tabs.annotation.AnnotationTrackPanel state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.view.AltSpliceView state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.tabs.console.ConsoleLogPanel state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="com.affymetrix.igb.restrictions.RestrictionControlView state" value="COMPONENT_STATE_RIGHT_TAB"/>
+              <entry key="com.affymetrix.igb.search.SearchView state" value="COMPONENT_STATE_BOTTOM_TAB"/>
+              <entry key="main window x" value="-8"/>
+              <entry key="main window y" value="-8"/>
+              <entry key="main window width" value="1936"/>
+              <entry key="main window height" value="1048"/>
+              <entry key="Left Tabbed Panes dvdrloc" value="0.2"/>
+              <entry key="Left Tabbed Panes state" value="HIDDEN"/>
+              <entry key="Right Tabbed Panes selected" value="com.affymetrix.igb.view.SeqGroupViewGUI"/>
+              <entry key="Right Tabbed Panes dvdrloc" value="0.8899793388429752"/>
+              <entry key="Bottom Tabbed Panes selected" value="com.affymetrix.igb.tabs.annotation.AnnotationTrackPanel"/>
+              <entry key="Bottom Tabbed Panes dvdrloc" value="0.6755725190839694"/>
+              <entry key="Preferences Window x" value="575"/>
+              <entry key="Preferences Window y" value="199"/>
+              <entry key="Preferences Window width" value="750"/>
+              <entry key="Preferences Window height" value="650"/>
+            </map>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

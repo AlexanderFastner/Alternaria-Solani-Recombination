@@ -1,0 +1,129 @@
+fasta ex.txt
+ClonalFrameML v1.12
+Finished reading in control file.
+
+Read 48 sequences of length 32779142 sites from all.new.exclusion.whole.wo.indels.fasta
+ERROR: convert_NewickTree_to_marginal_tree(): Newick tree tip label SE_EL005 was not expected
+root@LAPTOP-U3V5R6JN:/mnt/c/Users/alex/Desktop/denbiData# ClonalFrameML RAxML_bipartitions.new.results all.new.exclusion.whole.wo.indels.fasta example.fasta
+ClonalFrameML v1.12
+Finished reading in control file.
+
+Read 48 sequences of length 32779142 sites from all.new.exclusion.whole.wo.indels.fasta
+IMPUTATION AND RECONSTRUCTION OF ANCESTRAL STATES:
+Analysing 261918 sites
+Empirical nucleotide frequencies:   A 24.4%   C 25.7%   G 25.7%   T 24.3%
+Maximum log-likelihood for imputation and ancestral state reconstruction = -5.33625e+06
+Wrote imputed and reconstructed ancestral states to example.fasta.ML_sequence.fasta
+Wrote position cross-reference file to example.fasta.position_cross_reference.txt
+BRANCH LENGTH CORRECTION/RECOMBINATION ANALYSIS:
+Analysing 32779142 sites
+Empirical nucleotide frequencies:   A 24.4%   C 25.7%   G 25.7%   T 24.3%
+Beginning branch optimization. Key to parameters (and constraints):
+B   uncorrected branch length
+L   maximum unnormalized log-posterior per branch
+P   contribution of the prior to L
+R   R/theta per branch                                       (> 0)
+I   mean DNA import length per branch                        (> 0)
+D   divergence of DNA imported by recombination              (> 0)
+M   expected number of mutations per branch                  (> 0)
+
+
+ L = -4.2058e+06 P = 841.11 R = 0.547037 I = 954.147 D = 0.0167541 in 31312.1 s and 31 evaluations
+ Posterior alphas: R = 33966.4 I = 33966.3 D = 542965
+ ClonalFrameML log-likelihood ratio of 1.39035e+06 indicates evidence for recombination
+Branch 124-2.whole.wo.indels B = 0.000263125 M = 3.01842e-05
+Branch 131-4.whole.wo.indels B = 0.000221879 M = 2.75885e-05
+Branch 132-2.whole.wo.indels B = 1.44909e-05 M = 2.72802e-06
+Branch 134-1.whole.wo.indels B = 1.23249e-05 M = 2.11853e-06
+Branch 14-23s.whole.wo.indels B = 0.00443605 M = 0.000518205
+Branch 142-2.whole.wo.indels B = 1.45519e-05 M = 1.82635e-06
+Branch 144-2.whole.wo.indels B = 1.15622e-05 M = 2.3323e-06
+Branch 15-183s.whole.wo.indels B = 0.00030437 M = 4.69874e-05
+Branch 15-186s.whole.wo.indels B = 1.30876e-05 M = 3.14713e-06
+Branch 15-19s.whole.wo.indels B = 1.63519e-05 M = 2.22523e-06
+Branch 15-1s.whole.wo.indels B = 0.000304889 M = 3.45225e-05
+Branch 15-20s.whole.wo.indels B = 0.000589613 M = 5.52246e-05
+Branch 15-235s.whole.wo.indels B = 0.000748037 M = 8.20255e-05
+Branch 15-43s.whole.wo.indels B = 2.51684e-05 M = 2.56905e-06
+Branch 151-3.whole.wo.indels B = 1.0647e-05 M = 3.2044e-06
+Branch 152-1.whole.wo.indels B = 1.31791e-05 M = 1.92254e-06
+Branch 152-3.whole.wo.indels B = 1.72976e-05 M = 2.5838e-06
+Branch 152-4.whole.wo.indels B = 1.86399e-05 M = 2.96878e-06
+Branch 212-2.whole.wo.indels B = 1.65044e-05 M = 1.77806e-06
+Branch 213-1.whole.wo.indels B = 1.59858e-05 M = 2.17444e-06
+Branch 38-1.whole.wo.indels B = 1.03114e-05 M = 2.56336e-06
+Branch 45-1.whole.wo.indels B = 1.59553e-05 M = 2.49192e-06
+Branch 45-12.whole.wo.indels B = 1.69315e-05 M = 2.04879e-06
+Branch 45-13.whole.wo.indels B = 1.74501e-05 M = 2.34683e-06
+Branch 45-4.whole.wo.indels B = 1.20503e-05 M = 2.11001e-06
+Branch 47-10.whole.wo.indels B = 1.05555e-05 M = 2.13007e-06
+Branch 54-1.whole.wo.indels B = 0.000468652 M = 5.62016e-05
+Branch 54-10.whole.wo.indels B = 0.000421091 M = 4.1045e-05
+Branch 736-1.whole.wo.indels B = 0.000865489 M = 0.000102107
+Branch As_615.whole.wo.indels B = 2.06534e-05 M = 2.61713e-06
+Branch As_628.whole.wo.indels B = 2.10195e-05 M = 3.54507e-06
+Branch As_676-1.whole.wo.indels B = 0.000592907 M = 4.62113e-05
+Branch As_687-1.whole.wo.indels B = 1.8884e-05 M = 2.90858e-06
+Branch As_691-1.whole.wo.indels B = 2.1111e-05 M = 2.9565e-06
+Branch As_692-1.whole.wo.indels B = 2.10805e-05 M = 3.27911e-06
+Branch As_711-2.whole.wo.indels B = 1.55587e-05 M = 2.17143e-06
+Branch As_720-3.whole.wo.indels B = 2.00432e-05 M = 3.45435e-06
+Branch As_732-1.whole.wo.indels B = 2.12025e-05 M = 2.70426e-06
+Branch As_737-1.whole.wo.indels B = 1.7084e-05 M = 3.26372e-06
+Branch As_739-3.whole.wo.indels B = 0.000592511 M = 4.0339e-05
+Branch As_746-1.whole.wo.indels B = 1.7084e-05 M = 3.09999e-06
+Branch As_749-3.whole.wo.indels B = 0.000412213 M = 3.726e-05
+Branch As_754-2.whole.wo.indels B = 2.48939e-05 M = 3.04927e-06
+Branch As_774-1.whole.wo.indels B = 1.97992e-05 M = 2.65112e-06
+Branch As_CONR4D.whole.wo.indels B = 1.02809e-05 M = 2.66522e-06
+Branch As_CONRI4.whole.wo.indels B = 1.55282e-05 M = 2.76085e-06
+Branch As_OONR2J.whole.wo.indels B = 2.04703e-05 M = 3.25943e-06
+Branch As_T2R3B.whole.wo.indels B = 3.55714e-05 M = 4.07545e-06
+Branch NODE_49 B = 0.000687571 M = 6.30048e-05
+Branch NODE_50 B = 0.000207632 M = 2.33942e-05
+Branch NODE_51 B = 0.000225845 M = 2.06054e-05
+Branch NODE_52 B = 0.000100643 M = 8.75297e-06
+Branch NODE_53 B = 0.000391926 M = 3.0835e-05
+Branch NODE_54 B = 0.000235882 M = 2.69773e-05
+Branch NODE_55 B = 0.000126849 M = 1.44859e-05
+Branch NODE_56 B = 0.000304523 M = 2.72417e-05
+Branch NODE_57 B = 0.000114921 M = 1.83991e-05
+Branch NODE_58 B = 5.00318e-06 M = 5.00661e-07
+Branch NODE_59 B = 1.6779e-06 M = 3.54227e-07
+Branch NODE_60 B = 6.31499e-06 M = 1.50216e-06
+Branch NODE_61 B = 1.0403e-05 M = 1.12508e-06
+Branch NODE_62 B = 0.000275236 M = 2.60704e-05
+Branch NODE_63 B = 1.06775e-05 M = 1.86392e-06
+Branch NODE_64 B = 0.000634519 M = 7.94369e-05
+Branch NODE_65 B = 0.000351962 M = 4.71314e-05
+Branch NODE_66 B = 6.55905e-06 M = 1.11799e-06
+Branch NODE_67 B = 0.000632719 M = 8.56883e-05
+Branch NODE_68 B = 0.00030373 M = 3.31364e-05
+Branch NODE_69 B = 9.06064e-06 M = 1.60987e-06
+Branch NODE_70 B = 3.50833e-06 M = 1.21587e-06
+Branch NODE_71 B = 6.89463e-06 M = 1.04482e-06
+Branch NODE_72 B = 0.000274931 M = 3.58887e-05
+Branch NODE_73 B = 0.000170657 M = 1.63311e-05
+Branch NODE_74 B = 0.000176423 M = 1.31634e-05
+Branch NODE_75 B = 7.13258e-05 M = 1.08637e-05
+Branch NODE_76 B = 0.000150095 M = 1.98738e-05
+Branch NODE_77 B = 0.000224136 M = 2.75331e-05
+Branch NODE_78 B = 6.22347e-06 M = 1.50587e-06
+Branch NODE_79 B = 0.000253942 M = 1.36173e-05
+Branch NODE_80 B = 5.82688e-06 M = 1.26796e-06
+Branch NODE_81 B = 4.75912e-06 M = 1.64082e-06
+Branch NODE_82 B = 0.00021831 M = 1.44596e-05
+Branch NODE_83 B = 0.000335732 M = 4.30981e-05
+Branch NODE_84 B = 0.000152078 M = 1.87653e-05
+Branch NODE_85 B = 0.000227309 M = 2.19495e-05
+Branch NODE_86 B = 7.16919e-06 M = 1.29871e-06
+Branch NODE_87 B = 6.04043e-06 M = 1.24992e-06
+Branch NODE_88 B = 1.98297e-06 M = 4.1542e-07
+Branch NODE_89 B = 6.13195e-06 M = 1.1479e-06
+Branch NODE_90 B = 3.90492e-06 M = 8.28384e-07
+Branch NODE_91 B = 0.000195856 M = 1.2401e-05
+Branch NODE_92 B = 0.000337806 M = 2.39217e-05
+Branch NODE_93 B = 0.000150034 M = 1.95023e-05
+Wrote inferred importation status to example.fasta.importation_status.txt
+Wrote processed tree to example.fasta.labelled_tree.newick
+All done in 525.942 minutes.

@@ -1,0 +1,18 @@
+add labels to all segments above certain threshold --
+run for all 10 chr and the complete genome -- 
+scale to same size as clonalframeML xx Bad idea
+blow up gff to show where on genome these peaks are, and if they are in or outside of genes. !probably not a good image!
+
+Q's
+what to do w/ img problem?
+where Gff?
+have the peaks, now what
+what parameters to change? theta, rho, use pade?, burnin, mut_matrix
+
+run clonal frame with different mu 10-6 - 10-9
+ldhelmet infer mut_matrix ask tamara 
+ldhelmet run again without belgian sample ask tamara
+read into pade coef
+plot gff 
+
+ClonalFrameML RAxML_bipartitionsBranchLabels.chromosome1.output bychromosome/chromosome1.fasta chr1alteredMu.fasta
