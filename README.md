@@ -1,4 +1,4 @@
-# denbiData
+# Search for evidence of Recombination in <ins>Alternaria Solani</ins>
 This is a collection of scripts and R visualizations used in my Bachelors thesis:
 Searching for evidence of recombination in Altanaria .solani 
 
